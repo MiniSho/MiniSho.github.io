@@ -1,6 +1,6 @@
 ---
 layout: page
-description: "填上一句你想填的话，在index.html中更改"
+description: "性别男，爱好女"
 ---
 
 {% for post in paginator.posts %}
@@ -19,7 +19,8 @@ description: "填上一句你想填的话，在index.html中更改"
         </div>
     </a>
     <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on
+        {{ post.date | date: "%B %-d, %Y" }}
     </p>
 </div>
 <hr>
