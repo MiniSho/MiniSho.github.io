@@ -104,7 +104,7 @@ theme: ayer
 deploy:
   type: git
   repo: https://github.com/MiniSho/MiniSho.github.io.git
-  branch: master
+  branch: main
 
 search:
   path: search.xml
